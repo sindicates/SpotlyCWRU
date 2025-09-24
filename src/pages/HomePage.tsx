@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <main>
       <section className="main-container">
-        <h1 className="header-text">React Supabase Auth Template</h1>
+        <h1 className="header-text">Spotly</h1>
         <p>Current User : {session?.user.email || "None"}</p>
         {session ? (
           <button onClick={() => supabase.auth.signOut()}>Sign Out</button>
