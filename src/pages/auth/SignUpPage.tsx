@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, Navigate } from "react-router-dom";
-import { useSession } from "../../context/SessionContext";
-import supabase from "../../supabase";
+import { useSession } from "../../hooks/useAuth";
+import supabase from "../../lib/supabaseClient";
 
 const SignUpPage = () => {
   // ==============================

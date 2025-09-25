@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import { SessionProvider } from "./context/SessionContext";
+import { SessionProvider } from "./hooks/useAuth";
 
 const Providers = () => {
   return (

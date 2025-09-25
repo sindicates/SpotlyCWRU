@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { useSession } from "../context/SessionContext";
+import { useSession } from "../hooks/useAuth";
 
 const ProtectedPage = () => {
   const { session } = useSession();
