@@ -31,6 +31,6 @@
     "supabase": "^2.53.6",
     "tailwindcss": "^4.1.16",
     "typescript": "^5.9.2",
-    "vite": "^6.2.6"
+    "vite": "^7.1.12"
   }
 }
