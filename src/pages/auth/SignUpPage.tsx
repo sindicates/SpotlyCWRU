@@ -36,10 +36,11 @@ const SignUpPage = () => {
   };
 
   return (
-    <main>
-      <Link className="home-link" to="/">
-        ◄ Home
-      </Link>
+    <main className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-gray-200 px-4">
+  <div className="text-center mb-8">
+    <h1 className="text-5xl font-bold text-white">Spotly</h1>
+  </div>
+      
       <form className="main-container" onSubmit={handleSubmit}>
         <h1 className="header-text">Sign Up</h1>
         <p
@@ -49,7 +50,6 @@ const SignUpPage = () => {
             color: "#777",
           }}
         >
-          Demo app, please don't use your real email or password
         </p>
         <input
           name="email"
