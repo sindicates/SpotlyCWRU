@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 // Adding full file extensions in case the build tool needs them
 import  supabase  from '../lib/supabaseClient.ts'; 
 import { useSession } from '../hooks/useAuth.tsx'; 
