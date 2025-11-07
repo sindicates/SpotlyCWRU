@@ -57,13 +57,19 @@ const HomePage = () => {
   }
 
   // If user AND onboarded, show the main app
-  return (
+
+  if(user && profile?.is_onboarded){
+
+    return (
     <div className="p-8">
       <h1 className="text-2xl font-bold">Welcome to Spotly, {profile?.username || user?.email}!</h1>
       <p>This is your main app page. You are fully onboarded.</p>
     </div>
   );
-};
+  
+  }
+  
+};  
 
 export default HomePage;
 
